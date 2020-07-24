@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Greeting from '../Greeting/Greeting';
+import Intro from '../Intro/Intro';
 import "./Layout.css";
 
 export default class Layout extends Component {
@@ -7,48 +9,8 @@ export default class Layout extends Component {
       <div>
         <section className="s1">
           <div className="main-container">
-            <div className="greeting-wrapper">
-              <h1>Hi, I am Jonathan Lane</h1>
-            </div>
-
-            <div className="intro-wrapper">
-              <div className="nav-wrapper">
-                <div className="dots-wrapper">
-                  <div className="browser-dot" id="dot-1"></div>
-                  <div className="browser-dot" id="dot-2"></div>
-                  <div className="browser-dot" id="dot-3"></div>
-                </div>
-                <ul id="navigation">
-                  <li>
-                    <a href="#">Contact</a>
-                  </li>
-                </ul>
-              </div>
-              <div className="left-column">
-                <img id="profile_pic" src="https://i.imgur.com/eecmM6k.jpg"></img>
-                <h5>Personalize Theme</h5>
-                <div id="theme-options-wrapper">
-                  <div id="light-mode" className="theme-dot"></div>
-                  <div id="blue-mode" className="theme-dot"></div>
-                  <div id="green-mode" className="theme-dot"></div>
-                  <div id="purple-mode" className="theme-dot"></div>
-                </div>
-                <p id="settings-note">*Theme settings will be saved for<br/>your next visit</p>
-              </div>
-              <div className="right-column">
-                <div id="preview-shadow">
-                <div id="preview">
-                  <div id="corner-tl" className="corner"></div>
-                  <div id="corner-tr" className="corner"></div>
-                  <h3>What I do</h3>
-                  <p>I am a full-stack developer with a passion for designing modern highly responsive web-based user interfaces.</p>
-                  <div id="corner-br" className="corner"></div>
-                  <div id="corner-bl" className="corner"></div>
-                </div>
-
-                </div>
-                </div>
-            </div>
+            <Greeting />
+            <Intro />
           </div>
         </section>
         <section className="s2">

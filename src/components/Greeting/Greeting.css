@@ -1,0 +1,6 @@
+.greeting-wrapper {
+  display: grid;
+  min-height: 10em;
+  text-align: center;
+  align-content: center;
+}
