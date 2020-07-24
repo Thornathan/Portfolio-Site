@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import Greeting from '../Greeting/Greeting';
-import Intro from '../Intro/Intro';
+import Greeting from "../Greeting/Greeting";
+import Intro from "../Intro/Intro";
+import About from "../About/About";
 import "./Layout.css";
 
 export default class Layout extends Component {
@@ -14,7 +15,9 @@ export default class Layout extends Component {
           </div>
         </section>
         <section className="s2">
-          <div className="main-container">About</div>
+          <div className="main-container">
+            <About />
+          </div>
         </section>
         <section className="s1">
           <div className="main-container">Portfolio</div>
