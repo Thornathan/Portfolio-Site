@@ -27,6 +27,10 @@
   padding: 10px;
 }
 
+#navigation a {
+  color: var(--mainText);
+}
+
 #navigation li {
   display: inline-block;
   margin-right: 5px;
