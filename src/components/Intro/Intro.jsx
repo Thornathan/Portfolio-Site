@@ -13,12 +13,12 @@ export default class Intro extends Component {
                 </div>
                 <ul id="navigation">
                   <li>
-                    <a href="#">Contact</a>
+                    <a href="/">Contact</a>
                   </li>
                 </ul>
               </div>
               <div className="left-column">
-                <img id="profile_pic" src="https://i.imgur.com/eecmM6k.jpg"></img>
+                <img id="profile_pic" alt="headshot" src="https://i.imgur.com/eecmM6k.jpg"></img>
                 <h5>Personalize Theme</h5>
                 <div id="theme-options-wrapper">
                   <div id="light-mode" className="theme-dot"></div>
