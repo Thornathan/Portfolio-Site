@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Greeting from "../Greeting/Greeting";
 import Intro from "../Intro/Intro";
 import About from "../About/About";
+import Projects from "../Projects/Projects";
 import "./Layout.css";
 
 export default class Layout extends Component {
@@ -20,7 +21,9 @@ export default class Layout extends Component {
           </div>
         </section>
         <section className="s1">
-          <div className="main-container">Portfolio</div>
+          <div className="main-container">
+            <Projects />
+          </div>
         </section>
         <section className="s2">
           <div className="main-container">Contact</div>
