@@ -3,6 +3,7 @@ import Greeting from "../Greeting/Greeting";
 import Intro from "../Intro/Intro";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
+import Contact from "../Contact/Contact"
 import "./Layout.css";
 
 export default class Layout extends Component {
@@ -26,7 +27,9 @@ export default class Layout extends Component {
           </div>
         </section>
         <section className="s2">
-          <div className="main-container">Contact</div>
+          <div className="main-container">
+            <Contact />
+          </div>
         </section>
       </div>
     );
