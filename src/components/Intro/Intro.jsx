@@ -1,31 +1,9 @@
 import React, { Component } from "react";
 import "./Intro.css";
 
+
+
 export default class Intro extends Component {
-
-  setTheme(mode) {
-    if(mode === 'light') {
-      document.getElementById('theme-style').href = 'default.css'
-    }
-  }
-
-  handleThemeChange() {
-    let themeDots = document.getElementsByClassName("theme-dot");
-    for (var i = 0; themeDots.length > i; i++) {
-      themeDots[i].addEventListener("click", function () {
-        let mode = this.dataset.mode;
-        // setTheme(mode);
-        console.log("Option clicked:", mode);
-      });
-    }
-  }
-
-
-  
-
-  componentDidMount() {
-    this.handleThemeChange();
-  }
 
   render() {
     return (
@@ -50,20 +28,35 @@ export default class Intro extends Component {
           ></img>
           <h5>Personalize Theme</h5>
           <div id="theme-options-wrapper">
-            <div data-mode="light" id="light-mode" className="theme-dot"></div>
-            <div data-mode="blue" id="blue-mode" className="theme-dot"></div>
-            <div data-mode="green" id="green-mode" className="theme-dot"></div>
             <div
-              data-mode="purple"
+              id="light-mode"
+              className="theme-dot"
+              onClick={() => {
+                this.props.handleThemeChange("light");
+              }}
+            ></div>
+            <div
+              id="blue-mode"
+              className="theme-dot sampleName"
+              onClick={() => {
+                this.props.handleThemeChange("blue");
+              }}
+            ></div>
+            <div
+              id="green-mode"
+              className="theme-dot"
+              onClick={() => {
+                this.props.handleThemeChange("green");
+              }}
+            ></div>
+            <div
               id="purple-mode"
               className="theme-dot"
+              onClick={() => {
+                this.props.handleThemeChange("purple");
+              }}
             ></div>
           </div>
-          <p id="settings-note">
-            *Theme settings will be saved for
-            <br />
-            your next visit
-          </p>
         </div>
         <div className="right-column">
           <div id="preview-shadow">

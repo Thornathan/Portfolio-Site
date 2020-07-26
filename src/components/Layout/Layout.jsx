@@ -13,7 +13,7 @@ export default class Layout extends Component {
         <section className="s1">
           <div className="main-container">
             <Greeting />
-            <Intro />
+            <Intro handleThemeChange={this.props.handleThemeChange} />
           </div>
         </section>
         <section className="s2">

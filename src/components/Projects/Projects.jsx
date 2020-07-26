@@ -41,7 +41,7 @@ export default class Projects extends Component {
                 <h6 className="post-title">Dark Game Secrets</h6>
                 <p className="post-intro">
                   Gaming blog site that allows users to share game secrets in
-                  blogs and others can rate the validity of their posts.
+                  blogs and others can rate the validity of their posts
                 </p>
                 <a
                   href="https://github.com/Thornathan/Dark-Game-Secrets"
