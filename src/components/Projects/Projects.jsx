@@ -8,7 +8,7 @@ import PokemonCreations from "../../images/pokemonCreations.png";
 export default class Projects extends Component {
   render() {
     return (
-      <div>
+      <div id="projects">
         <h3>Some of my past projects</h3>
         <div className="post-wrapper">
           <div>
