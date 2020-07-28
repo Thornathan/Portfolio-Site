@@ -1,8 +1,6 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
 import "./App.css";
 import Layout from "../../components/Layout/Layout";
-import ContactPage from "../ContactPage/ContactPage";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
@@ -86,9 +84,7 @@ class App extends React.Component {
         <GlobalStyle color={this.state.color} />
         <Layout handleThemeChange={this.handleThemeChange}/>
         <main>
-          <Switch>
-            <Route exact path="/contact" render={() => <ContactPage />} />
-          </Switch>
+          
         </main>
       </div>
     );
