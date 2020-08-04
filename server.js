@@ -41,7 +41,7 @@ app.post("/api/form", (req, res) => {
       port: 587,
       auth: {
         user: "jlanewebdev@gmail.com",
-        pass: "Basket>1",
+        pass: "Basket142!",
       },
     });
 
