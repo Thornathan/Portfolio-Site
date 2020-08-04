@@ -24,7 +24,7 @@ export default class Contact extends Component {
   async handleSubmit(e) {
     e.preventDefault();
     const { name, email, message } = this.state
-    const form = await axios.post('/send', {
+    const form = await axios.post('/api/form', {
       name,
       email,
       message
@@ -32,7 +32,7 @@ export default class Contact extends Component {
 
     axios({
       method: "POST",
-      url: "http://localhost:3001/send",
+      url: "http://localhost:3001/api/form",
       data: {
         name: name,
         email: email,

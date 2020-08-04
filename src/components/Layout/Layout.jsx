@@ -26,11 +26,11 @@ export default class Layout extends Component {
             <Projects />
           </div>
         </section>
-        <section className="s2">
+        {/* <section className="s2">
           <div className="main-container">
             <Contact />
           </div>
-        </section>
+        </section> */}
       </div>
     );
   }

@@ -1,25 +1,25 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
-const path = require('path');
-const favicon = require('serve-favicon');
-const logger = require('morgan');
+const path = require("path");
+const favicon = require("serve-favicon");
+const logger = require("morgan");
 const app = express();
 
-app.use(logger('dev'));
+app.use(logger("dev"));
 app.use(express.json());
+app.use(cors());
 
-app.use(favicon(path.join(__dirname, 'build', 'favicon.ico')));
-app.use(express.static(path.join(__dirname, 'build')));
-
-app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+app.use(favicon(path.join(__dirname, "build", "favicon.ico")));
+app.use(express.static(path.join(__dirname, "build")));
+app.get("/*", function (req, res) {
+  res.sendFile(path.join(__dirname, "build", "index.html"));
 });
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-
-app.post("/send", (req, res) => {
+app.use("/api/form", cors());
+app.post("/api/form", (req, res) => {
   var name = req.body.name;
   var email = req.body.email;
   var message = req.body.message;
