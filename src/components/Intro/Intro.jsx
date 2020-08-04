@@ -21,9 +21,9 @@ export default class Intro extends Component {
             <li>
               <a href="#projects">Projects</a>
             </li>
-            {/* <li>
+            <li>
               <a href="#contact-form">Contact</a>
-            </li> */}
+            </li>
           </ul>
         </div>
         <div className="left-column">
