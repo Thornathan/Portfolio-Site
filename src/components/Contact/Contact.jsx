@@ -40,7 +40,7 @@ export default class Contact extends Component {
       },
     }).then((response) => {
       if (response.data.msg === "success") {
-        alert("Message Sent.");
+        alert("Message Sent");
         this.resetForm();
       } else if (response.data.msg === "fail") {
         alert("Message failed to send.");
