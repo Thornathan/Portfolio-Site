@@ -4,6 +4,7 @@ import Checkers from "../../images/checkers.png";
 import BlogSite from "../../images/blog.png";
 import TwistsOfRate from "../../images/twistsofrate.png";
 import PokemonCreations from "../../images/pokemonCreations.png";
+import NetflixClone from "../../images/netflix-clone.png";
 
 export default class Projects extends Component {
   render() {
@@ -93,6 +94,28 @@ export default class Projects extends Component {
                 </p>
                 <a
                   href="https://github.com/Thornathan/pokemon-creations-app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className="post">
+              <img
+                className="thumbnail"
+                alt="netflix-clone"
+                src={NetflixClone}
+              ></img>
+              <div className="post-preview">
+                <h6 className="post-title">Netflix Clone Front-end UI</h6>
+                <p className="post-intro">
+                  A Clone of the Netflix UI with an API call to a movie database and also shows trailers for selected shows or movies.
+                </p>
+                <a
+                  href="https://github.com/Thornathan/Netflix-Clone"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
