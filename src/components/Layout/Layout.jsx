@@ -3,7 +3,7 @@ import Greeting from "../Greeting/Greeting";
 import Intro from "../Intro/Intro";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
-import Contact from "../Contact/Contact"
+// import Contact from "../Contact/Contact"
 import "./Layout.css";
 
 export default class Layout extends Component {
@@ -26,11 +26,11 @@ export default class Layout extends Component {
             <Projects />
           </div>
         </section>
-        <section className="s2">
+        {/* <section className="s2">
           <div className="main-container">
             <Contact />
           </div>
-        </section>
+        </section> */}
       </div>
     );
   }

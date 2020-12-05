@@ -24,6 +24,7 @@ export default class Contact extends Component {
   async handleSubmit(e) {
     e.preventDefault();
     const { name, email, message } = this.state
+    // eslint-disable-next-line no-unused-vars
     const form = await axios.post('/api/form', {
       name,
       email,
