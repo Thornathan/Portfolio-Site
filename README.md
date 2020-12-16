@@ -1,68 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **Jonathan Lane's Portfolio**
 
-## Available Scripts
+### Click the link to view the website
+[Portfolio Webstite](https://lanewebdev.com/) 
 
-In the project directory, you can run:
+### About Me
+My friends call me Thornathan as I used to have a nickname as Thorne for being the "Mob boss type guy that everyone went to for favors" such as homework or simply covering someone's lunch and Thornathan sounded a little better off the tongue.
 
-### `npm start`
+I enjoy innovating websites to the most current technology and expanding to create scalable and captivating sites in a logical and creative path.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Programming is one of the most versatile and important skills a person can have in today's business world. It enables developers to craft programs unique to any business' specific needs thus facilitating that business' growth.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+I view my self as a Problem Solver with a high interist in identifying Problems that arise. I have an empathic approach and creating logical solutions so I care deeply about creating a website or product that will bring the most out of a company. 
 
-### `npm test`
+I am highly interested in working with a company that looks to take a chance on a young developer who is looking to make a name for himself and develop to become a Sr Developer that looks over developers who started where I am today.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Project Work:
+https://github.com/Thornathan
 
-### `npm run build`
+LinkedIn:
+https://www.linkedin.com/in/jonathanalane/
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Full-Stack Software Engineering Skills:
+HTML5 | CSS | JavaScript | Express | Node.js | Django | Mongoose | MongoDB | Python | PostreSQL | React | Redux | React-spring | Animations | Axios | Nodemailer
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Developer Tools:
+Git | GitHub | MongoDB Atlas | Postman | Heroku | Namecheap | AWS | Firebase | Third Party APIs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Project Management Skills:
+Schedule and Timeline Management | Outreach Strategy and Management | Research | Microsoft Office Suite | Teamwork | Marketing | Client Development & Retention
 
-### `npm run eject`
+Creative Skills:
+Wireframing | Adobe Creative Suite | Web Design | Google Fonts
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Screenshots:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Introduction
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Introduction Page Sceenshot](https://i.imgur.com/UAjGXjS.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### About me
+![About Me Sceenshot](https://i.imgur.com/ADSbVq5.png)
 
-## Learn More
+### Projects
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Projects](https://i.imgur.com/BD3zVXd.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies Used: 
 
-### Code Splitting
+#### 1. HTML5
+#### 2. CSS
+#### 3. JavaScript
+#### 4. React
+#### 6. Node.js
+#### 7. Firebase
+#### 9. Git
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+## Potential Next Steps: 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+##### - [] Play with css more to make colors pop even more
+##### - [] Use AWS to store data
+##### - [] Update CSS further for additional media queries
+##### - [] add animation effects
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Click the link to view the website
+[Portfolio Webstite](https://lanewebdev.com/) 
