@@ -1,4 +1,4 @@
-.post-wrapper {
+.posts__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, 350px);
   gap: 20px;
@@ -35,6 +35,6 @@
   font-size: 14px;
 }
 
-.post-wrapper h3 {
+.posts__container h3 {
   text-align: center;
 }

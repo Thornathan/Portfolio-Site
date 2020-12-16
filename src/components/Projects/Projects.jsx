@@ -6,14 +6,15 @@ import TwistsOfRate from "../../images/twistsofrate.png";
 import PokemonCreations from "../../images/pokemonCreations.png";
 import NetflixClone from "../../images/netflix-clone.png";
 import AmazonClone from "../../images/amazon-clone.png";
+import RobinhoodClone from "../../images/robinhood-clone.png";
 
 export default class Projects extends Component {
   render() {
     return (
       <div id="projects">
         <h3>Some of my past projects</h3>
-        <div className="post-wrapper">
-          <div>
+        <div className="posts__container">
+          <div className="post__wrapper">
             <div className="post">
               <img className="thumbnail" alt="checkers" src={Checkers}></img>
               <div className="post-preview">
@@ -32,7 +33,7 @@ export default class Projects extends Component {
               </div>
             </div>
           </div>
-          <div>
+          <div className="post__wrapper">
             <div className="post">
               <img
                 className="thumbnail"
@@ -55,7 +56,7 @@ export default class Projects extends Component {
               </div>
             </div>
           </div>
-          <div>
+          <div className="post__wrapper">
             <div className="post">
               <img
                 className="thumbnail"
@@ -79,7 +80,7 @@ export default class Projects extends Component {
               </div>
             </div>
           </div>
-          <div>
+          <div className="post__wrapper">
             <div className="post">
               <img
                 className="thumbnail"
@@ -103,7 +104,7 @@ export default class Projects extends Component {
               </div>
             </div>
           </div>
-          <div>
+          <div className="post__wrapper">
             <div className="post">
               <img
                 className="thumbnail"
@@ -126,7 +127,7 @@ export default class Projects extends Component {
               </div>
             </div>
           </div>
-          <div>
+          <div className="post__wrapper">
             <div className="post">
               <img
                 className="thumbnail"
@@ -142,6 +143,29 @@ export default class Projects extends Component {
                 </p>
                 <a
                   href="https://github.com/Thornathan/Amazon-Clone"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="post__wrapper">
+            <div className="post">
+              <img
+                className="thumbnail"
+                alt="robinhood-clone"
+                src={RobinhoodClone}
+              ></img>
+              <div className="post-preview">
+                <h6 className="post-title">Robinhood Front-end UI</h6>
+                <p className="post-intro">
+                  A Mockup of the Robinhood Web Application built using React
+                  and FireStore and deployed with Firebase.
+                </p>
+                <a
+                  href="https://github.com/Thornathan/Robinhood-Clone"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
